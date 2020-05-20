@@ -1,4 +1,4 @@
-/**
+/*
 * Template Name: BizPage - v2.0.0
 * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
 * Author: BootstrapMade.com
@@ -12,6 +12,12 @@ body {
     background: #fff;
     color: #666666;
     font-family: "Open Sans", sans-serif;
+    /**/
+    padding-top: 93px;
+}
+
+body.page-home {
+    padding-top: 0;
 }
 
 a {
@@ -153,8 +159,112 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     right: 0;
     transition: all 0.5s;
-    z-index: 997;
+    z-index: 997;/**/
+    background-color: #000;
 }
+/**/
+.page-home #header {
+    background-color: transparent;
+}
+.page-ds #masthead {
+    background-color: #27303F;
+}
+.page-rs #masthead {
+    background-color: #192E71;
+}
+.page-ms #masthead {
+    background-color: #eee;
+}
+.page-ss #masthead {
+    background-color: #E7F1F9;
+}
+.page-sh #features .container {
+    position: relative;
+}
+.page-sh .box {
+    display:  inline-block;
+   border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 4px;
+        color: #000;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        margin-bottom: 20px;
+        width: 100%;
+}
+.page-sh .box h3, .page-sh .box p {
+    margin: 0;
+}
+.page-sh .box h3 {
+    margin-bottom: 10px;
+}
+.page-sh .box#item-cloud {
+    border-color: #E3793F;
+    background-color: #E5A687;
+}
+.page-sh .box#item-max {
+    border-color: #C04596;
+    background-color: #C288AE;
+}
+.page-sh .box#item-app {
+border-color: #00A8BF;
+    background-color: #65CAD6;
+}
+.page-sh .box#item-infra{
+    border-color: #664F9F;
+    background-color: #9E91BD;
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .page-sh .box {        
+        position: absolute;
+        left: 20px;
+        top: 150px;
+        z-index: 9;
+        width: 420px;
+    }
+    .page-sh .box#item-max {
+        left: 660px;
+    }
+    .page-sh .box#item-app {
+        top: 510px;
+    }
+    .page-sh .box#item-infra{
+        top: 510px;
+        left: 660px;
+    }
+    .page-sh .box:hover {
+    transform: scale(1.1);
+}
+}
+#quicklinks  {
+    border-top: solid 1px  #27303F;
+    border-bottom: solid 1px  #27303F;
+    background: #fff;
+    z-index: 999;
+        width: 100%;
+}
+@media only screen and (min-width: 768px) {
+.fixed#quicklinks  {
+    position: fixed;
+    top: 0;
+    }
+}
+#quicklinks .container {
+    display: flex;
+    justify-content: center;
+}
+#quicklinks a {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    color:  #27303F;
+}
+#quicklinks a:hover {
+    background-color: #CDEAF3;
+}
+
 
     #header.header-scrolled {
         background: rgba(0, 0, 0, 0.9);
@@ -442,8 +552,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
     color: #18d26e;
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-        border-bottom: 3px solid green;
+
      
 }
 
@@ -473,7 +582,8 @@ h1, h2, h3, h4, h5, h6 {
 
         .nav-menu ul li:hover > a {
             color: #18d26e;
-            
+            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+            border-bottom: 3px solid green;
         }
 
     .nav-menu ul ul {
@@ -656,9 +766,14 @@ body.mobile-nav-active {
 #featured-services {
     background: #000;
 }
+.page-home #featured-services {
+    background: transparent;
+}
 
     #featured-services .box {
         padding: 30px 20px;
+        /**/
+        padding: 10px 20px;
     }
 
     #featured-services .box-bg {
@@ -670,6 +785,10 @@ body.mobile-nav-active {
         font-size: 48px;
         display: inline-block;
         line-height: 1;
+         /**/
+          font-size: 38px;
+            float: left;
+    margin-right: 10px;
     }
 
     #featured-services h4 {
@@ -1719,4 +1838,9 @@ togcustom ul li a:active, togcustom ul li a.current {
 
 #main-content { padding: 14px; }
 
-/*Toggle for Service Page End */
+/**/
+#features .row.content {
+    padding-top: 80px;
+}
+
+/*Toggle for Service Page End 

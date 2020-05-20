@@ -23,7 +23,15 @@
     } else {
       $('.back-to-top').fadeOut('slow');
     }
+    if ($(this).scrollTop() > 600) {
+        $('#header').hide();
+        $('#quicklinks').addClass('fixed');
+      }else{
+        $('#quicklinks').removeClass('fixed');
+        $('#header').show();
+      }
   });
+
   $('.back-to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
