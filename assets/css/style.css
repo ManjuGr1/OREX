@@ -1844,3 +1844,62 @@ togcustom ul li a:active, togcustom ul li a.current {
 }
 
 /*Toggle for Service Page End 
+
+/*Right Side Social */
+
+.wrapper
+{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100020;
+    left: auto;
+    float: right;
+    right: 0px;
+}
+
+.share
+{
+    width: 40px;
+    height: 40px;
+    transform: translate(0px,0px);
+
+    position: relative;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.share .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+}
+
+.share.facebook1
+{
+    background-color: #3b5999;
+}
+
+.share.twitter1
+{
+    background-color: #55acee;
+}
+
+.share.instagram1
+{
+    background-color: #e4405f;
+}
+
+.share.linkedin1
+{
+    background-color: #0077B5;
+}
+
+.share:hover
+{
+    transform: translate(-20px,0px);
+}
