@@ -279,7 +279,8 @@ border-color: #00A8BF;
 
 @media (min-width: 1024px) {
     #header #logo {
-        padding-left: 60px;
+        padding-left: 10px;
+        
     }
 }
 
@@ -1902,4 +1903,41 @@ togcustom ul li a:active, togcustom ul li a.current {
 .share:hover
 {
     transform: translate(-20px,0px);
+}
+
+.section_cd{
+    padding-top: 170px !important;
+    padding-bottom: 200px !important;
+}
+.section_si{
+    padding-bottom: 160px !important;
+}
+.section_am, .section_qa, .section_mf{
+    padding-bottom: 160px !important;
+}
+.services_am {
+    padding-bottom: 230px;
+}
+.services_apm {
+    padding-bottom: 130px;
+}
+
+.section_cds {
+    padding-top: 100px !important;
+    padding-bottom: 250px;
+}
+.section_wps {
+    padding-top: 100px !important;
+    padding-bottom: 290px;
+}
+.section_uss {
+    padding-top: 100px !important;
+    padding-bottom: 280px;
+}
+
+.section_soc{
+    padding-bottom: 200px;
+}
+.section_soc, .section_sa, .section_sss{
+    padding-bottom: 200px;
 }
