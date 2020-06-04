@@ -1906,20 +1906,27 @@ togcustom ul li a:active, togcustom ul li a.current {
 }
 
 .section_cd{
-    padding-top: 170px !important;
+    padding-top: 160px !important;
     padding-bottom: 200px !important;
 }
-.section_si{
+.section_am, .section_qa {
+    padding-top: 140px !important;
     padding-bottom: 160px !important;
 }
-.section_am, .section_qa, .section_mf{
-    padding-bottom: 160px !important;
-}
+.section_si, .section_mf {
+        padding-top: 100px !important;
+        padding-bottom: 160px !important;
+    }
 .services_am {
+    padding-top: 120px !important;
     padding-bottom: 230px;
 }
 .services_apm {
+    padding-top: 120px !important;
     padding-bottom: 130px;
+}
+.section_wcd {
+    padding-top: 160px !important;
 }
 
 .section_cds {
@@ -1938,6 +1945,7 @@ togcustom ul li a:active, togcustom ul li a.current {
 .section_soc{
     padding-bottom: 200px;
 }
-.section_soc, .section_sa, .section_sss{
+.section_soc, .section_sa, .section_sss {
+    padding-top: 120px !important;
     padding-bottom: 200px;
 }
